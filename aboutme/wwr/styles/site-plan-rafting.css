@@ -2,7 +2,7 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 260px;
+    max-width: 960px;
     padding: 20px;
 }
 
@@ -12,8 +12,8 @@ body {
     --accent1-color: #BFADA3;
     --accent2-color: #504746;
 
-    --heading-font: "Sevillana";
-    --paragraph-font: "Roboto", "serif";
+    --heading-font: 'Sevillana', 'serif';
+    --paragraph-font: 'Roboto', 'serif';
 
     --nav-backgrong-color: #504746;
     --nav-link-color: #B89685;
