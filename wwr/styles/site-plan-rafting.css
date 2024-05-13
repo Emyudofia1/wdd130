@@ -7,18 +7,18 @@ body {
 }
 
 :root {
-    --primary-color: #846F66;
-    --secondary-color: #B89685;
-    --accent1-color: #BFADA3;
-    --accent2-color: #504746;
+    --primary-color: #c78b6c;
+    --secondary-color: #67AAF9;
+    --accent1-color: #614f4d;
+    --accent2-color: #C4E0F9;
 
-    --heading-font: 'Sevillana', 'serif';
+    --heading-font: 'Domine', 'serif';
     --paragraph-font: 'Roboto', 'serif';
 
-    --nav-backgrong-color: #504746;
-    --nav-link-color: #B89685;
-    --nav-hover-link-color: #846F66;
-    --nav-hover-background-color: #846F66;
+    --nav-backgrong-color: #539086;
+    --nav-link-color: white;
+    --nav-hover-link-color: #C4E0F9;
+    --nav-hover-background-color: #9BBDF9;
 }
 
 body {
@@ -28,13 +28,17 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+}
+
+header div {
+    color: var(--primary-color);
 }
 
 p {
