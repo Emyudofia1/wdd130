@@ -22,18 +22,10 @@ h1, h2 {
     color: var(--primary-color);
 }
 
-
-header img {
-    width: 200px;
-}
-
-footer nav a {
-    text-decoration: none;
-
-}
-
 .hero {
     position: relative;
+    border: 1px solid #ccc;
+    margin: 1rem auto;
 }
 
 .hero img {
@@ -44,8 +36,11 @@ footer nav a {
 .hero article{
     position: absolute;
     top: 100px;
-    background: rgb(0, 0, 0, 0.2);
+    background: rgb(0, 0, 0, 0.5);
     color: white;
+    width: 90%;
+    margin: 0 auto;
+    left: 5%;
 }
 
 .hero article img {
@@ -56,7 +51,7 @@ footer nav a {
 .hero h1 {
     position: absolute;
     top: 0;
-    background: rgb(0, 0, 0, 0.2);
+    background: rgb(0, 0, 0, 0.5);
     color: white;
     width: 100%;
     text-align: center;
@@ -65,5 +60,98 @@ footer nav a {
 section p {
     font-size: 15px;
     color: black;
+}
+
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	align-items: center;
+	border: 2px solid #ccc;
+    background-color: antiquewhite;
+    height: 150px;
+}
+
+header img {
+	margin: 0 0.25rem 0 2rem;
+	width: 130px;
+	height: auto;
+    padding-left: 30px;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border: 2px solid #ccc;
+    background-color: antiquewhite;
+
+}
+
+footer p {  
+    grid-area: 1/2/1/3;
+    justify-self: center;
+}
+
+footer nav {
+    grid-area: 1/3/1/4;
+    justify-self: right;
+    padding-top: 5px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #ccc;
+    margin: 1rem auto;
+}
+
+section .adventure .heading {
+    width: 100%;
+    text-align: center;
+}
+
+section figure {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+}
+
+section figure img {
+    flex: 1 1 200px;
+
+}
+
+section h2 {
+    width: 100%;
+    text-align: center;
+}
+
+section .history {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    
+}
+
+section .history p {
+    padding: 0 50px;
+    box-sizing: border-box;
+    margin: 0;
 }
 
