@@ -118,16 +118,11 @@ section {
     margin: 1rem auto;
 }
 
-section .adventure .heading {
-    width: 100%;
-    text-align: center;
-}
-
 section figure {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    gap: 1px;
     padding: 0;
 }
 
