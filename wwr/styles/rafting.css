@@ -150,11 +150,13 @@ section .history p {
     margin: 0;
 }
 
-.happy-employees {
-    display: flex;
-    justify-content: center;
+    /* styling the contact page  */
 
     
+.happy-employees {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
 }
 
 .happy-employees img {
@@ -208,6 +210,74 @@ footer a {
 
 /* styling the trips page */
 
-.trips-wrapper img {
-    display: flex;
+.trips-hero {
+    position: relative;
+    border: 1px solid #ccc;
+    margin: 1rem auto;
 }
+
+.trips-hero p {
+    text-align: center;
+}
+
+.trips-hero img { 
+    display: block;
+    width: 100%;
+    height: auto; 
+}
+
+.trips {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    width: 90%;
+    margin: 20px auto;
+    /* align-self: center; */
+  }
+  
+  .trips-table {
+    justify-self: center;
+  }
+
+
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgb(228 240 245);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
