@@ -166,7 +166,7 @@ section .history p {
     text-align: center;
 }
 
-.company-information h1 {
+.company-information  {
     text-align: center;
 }
 
@@ -178,7 +178,7 @@ section .history p {
     /* align-self: center; */
     width: 70%;
     margin: 0 auto;
-    margin-left: 15%;
+    /* margin-left: 5%; */
 }
 
 label{
