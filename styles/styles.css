@@ -121,5 +121,13 @@ aside p {
 }
 
 
+.happy-employees figure img {
+    max-width: 100px;
+}
+
+article .feldset .tetaarea {
+    display: flex;
+    flex-direction: column;
+}
 
 

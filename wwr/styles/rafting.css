@@ -150,3 +150,61 @@ section .history p {
     margin: 0;
 }
 
+.happy-employees {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.happy-employees img {
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.happy-employees figcaption {
+    text-align: center;
+}
+
+.company-information h1 {
+    text-align: center;
+}
+
+.company-information p {
+    text-align: center;
+}
+
+.company-information iframe {
+    /* align-self: center; */
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 15%;
+}
+
+label{
+    display: block;
+    
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+figure{
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.purpose {
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 18px;
+}
+
+/* styling the trips page */
+

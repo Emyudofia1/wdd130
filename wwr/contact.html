@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Emediong's Contact Page">
+    <meta name="author" content="Emediong Udofia">
+    <title>Contact Us - Willard Water Rafting Company</title>
+    <script>
+        function showMessage() {
+            alert("You have submitted your message successfully");
+        }
+    </script>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+    <div class="company-information">
+     <h1>Company Information:</h1>
+     <p><strong>Address: Uyo, Nigeria</strong></p>
+     <p><strong><a href="tel:+2347032416636">Phone Number: 07032416626</a></strong></p>
+     <p><strong><a href="mailto:emyudofia1@gmail.com">email: emyudofia1@gmail.com</a></strong></p>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63574.65643942663!2d7.851489490226379!3d5.197114044627744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105d4e3ec906c33b%3A0x44acead265cbc035!2sOko%20Ita%2C%20Akwa%20Ibom!5e0!3m2!1sen!2sng!4v1717279129125!5m2!1sen!2sng" width="600" height="450" allowfullscreen=""loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="happy-employees">
+        <figure>
+            <img src="images/happy-employee3.jpeg" alt="">
+            <figcaption>Happy Looking Employee1</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/happy-employee2.jpg" alt="">
+            <figcaption>Happy Looking Employee2</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/happy-employee1.jpg" alt="">
+            <figcaption>Happy Looking Employee3</figcaption>
+        </figure>
+    </div>
+
+    
+     <!-- <article>
+        <img src="images/uwa.jpg" alt="brighter faith" width="500">Brighter faith
+     </article> -->
+     <form onsubmit="showMessage(); return false;">
+        <fieldset>
+            <legend>User Information</legend>
+            <div class="form-item column2"> 
+                <label for="fullname">Full Name:</label>
+                <Input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="form-item column2"> <label for="Email">Email</label> 
+                <input type="email" id="Email" name="useremail">
+            </div>
+            <label for="Purpose">Purpose of Message</label>
+            <!-- <input id="Purpose"> -->
+             <input type="radio" name="Purpose" value="General Inquiry">General Inquiry
+             <input type="radio" name="Purpose" value="Reservation Question">Reservation Question
+             <input type="radio" name="Purpose" value="Website Suggestion">Website Suggestion
+            <label for="Message">Message</label>
+            <textarea id="Message" name="Message" rows="4"></textarea>
+            <label><input type="checkbox" name="subscribe" value="yes" id="subscribe">Please subscribe me to the monthly newsletter</label>
+            <button type="submit">SUBMIT</button>
+        </fieldset>
+        <!-- <button type="submit">SUBMIT</button> -->
+       </form> 
+    </main>
+    <footer>
+        <p>&copy;2024 🌲 Willard Water Rafting Company 🌲 Emediong Udofia</p>
+        <nav class="socialinks">
+        <a href="https://facebook.com"><img src="images/facebook-icon.png" alt="Facebook" width="40" height="40"></a>
+        <a href="https://instagram.com"><img src="images/instagram-icon.png" alt="Instagram" width="40" height="40"></a>
+        <a href="https://twitter.com"><img src="images/twitter-icon.png" alt="Twitter" width="40" height="40"></a>
+        </nav>
+        <a href="https://app.moqups.com/cqiH53MPjbEsEOKAhJi70dR84Q6h5BX3/edit/page/ad64222d5">Contact Us - Wireframe</a>
+    </footer>
+
+</body>
+</html>
