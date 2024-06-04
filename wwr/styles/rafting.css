@@ -208,3 +208,6 @@ footer a {
 
 /* styling the trips page */
 
+.trips-wrapper img {
+    display: flex;
+}
