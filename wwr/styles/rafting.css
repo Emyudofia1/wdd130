@@ -377,7 +377,7 @@ table {
     margin-left: 40%;
     max-width: 200px;
     /* margin-right: 30px; */
-    justify-self: 0 auto;
+    justify-self: auto;
     /* background-color: #eee; */
   }
 
